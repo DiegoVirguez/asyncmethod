@@ -1,0 +1,11 @@
+@Configuration: indica que la clase es una fuente de defincion de beans para el application context
+
+@Bean: el metodo produce un bean para ser manejado por el spring container. Necesita estar dentro de una clase anotada como
+configaration.
+
+@Component: Indicates that an annotated class is a "component". Such classes are considered as candidates
+for auto-detection when using annotation-based configuration and classpath scanning.
+
+@Async: Annotation that marks a method as a candidate for asynchronous execution.
+
+Definicion de bean: los bean son objetos que son instanciados, ensamblados y administrados por el contenedor
